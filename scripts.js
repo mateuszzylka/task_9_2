@@ -7,7 +7,7 @@ if (allNames.indexOf(newName) === -1) {
 	allNames.push(newName);
 	console.log('Current arrays is : ' + allNames);
 }
-else if (allNames.indexOf(newName) > -1) {
+else {
 	console.log(newName + ' already exists in the array' );
 }
 
